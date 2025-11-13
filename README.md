@@ -9,6 +9,7 @@ Descargar desde:
 https://www.python.org/downloads/windows
 
 🧱 1. Crear el entorno virtual
+
 python3.10 -m venv .venv
 
 

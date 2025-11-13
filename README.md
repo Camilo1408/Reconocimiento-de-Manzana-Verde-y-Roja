@@ -35,7 +35,9 @@ pip install -r requirements.txt
 Ejecuta los scripts según el modelo:
 
 python modelo1.py
+
 python modelo2.py
+
 python modelo3_tl.py
 
 

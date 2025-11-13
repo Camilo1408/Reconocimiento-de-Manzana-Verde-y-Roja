@@ -28,6 +28,7 @@ pip install tensorflow
 pip install flask
 
 Opción B — Instalar todo desde requirements.txt (RECOMENDADO)
+
 pip install -r requirements.txt
 
 🧠 3. Entrenar los modelos

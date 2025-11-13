@@ -19,8 +19,11 @@ Windows:
 
 📦 2. Instalar dependencias
 Opción A — Instalar paquete por paquete
+
 pip install numpy opencv-python scikit-learn matplotlib joblib
+
 pip install tensorflow
+
 pip install flask
 
 Opción B — Instalar todo desde requirements.txt (RECOMENDADO)

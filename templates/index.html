@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clasificador de Manzanas</title>
+  </head>
+  <body>
+    <h1>Clasificador de Manzanas (Roja vs Verde)</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="imagen" accept="image/*" required />
+      <button type="submit">Clasificar</button>
+    </form>
+
+    {% if pred %}
+    <h2>Resultado: {{ pred }}</h2>
+    {% endif %}
+  </body>
+</html>
